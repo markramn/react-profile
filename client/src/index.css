@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+}
+
+.writing-mode-vertical {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+}
+
+/* Landing page map hovering */
+.map-background {
+  fill: theme('colors.light.secondary');
+  stroke: theme('colors.light.accent');
+  transition: fill 0.3s, stroke 0.3s;
+}
+
+.dark .map-background {
+  fill: theme('colors.dark.secondary');
+  stroke: theme('colors.dark.accent');
+}
+
+.map-background path {
+  transition: fill 0.3s;
+}
+
+.map-background path:hover {
+  fill: theme('colors.light.accent');
+}
+
+.dark .map-background path:hover {
+  fill: theme('colors.dark.accent');
+}
+
+.map-background .gauteng {
+  transition: fill 0.3s;
+}
+
+.map-background .gauteng:hover {
+  fill: theme('colors.dark.highlight') !important;
+}
+
+.dark .map-background .gauteng:hover {
+  fill: theme('colors.dark.highlight') !important;
+}
