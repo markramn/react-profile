@@ -10,7 +10,6 @@ const VerticalNavbar = () => (
     <div className="flex flex-col items-center space-y-8">
       <NavItem href="#home" label="↑" isUpArrow={true} />
       <NavItem href="#about" label="About" />
-      <NavItem href="#experience" label="Experience" />
       <NavItem href="#projects" label="Projects" />
       <NavItem href="#contact" label="Contact" />
     </div>

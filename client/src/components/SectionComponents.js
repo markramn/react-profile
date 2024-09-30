@@ -73,9 +73,9 @@ export const About = () => {
   }, []);
 
   const blurbs = [
-    { title: "Engineer & Data Scientist", content: "As a passionate engineer and data scientist, I thrive on transforming complex challenges into elegant, efficient solutions." },
-    { title: "Versatile Technologist", content: "With expertise spanning full-stack development, machine learning, and data analysis, I bring a comprehensive toolkit to every project." },
-    { title: "Lifelong Learner", content: "In the ever-evolving tech landscape, I'm committed to continuous growth and applying diverse perspectives to problem-solving." }
+    { title: "Engineer & Data Scientist", content: "I'm the technical team lead at CallCabinet, where I design & build Conversation Analytics Solutions for Global Customers. With a specialty is big data solutions, I thrive when working on larger complex environments." },
+    { title: "Tools & teck stack", content: "My expertise spans backend technologies, cloud infrastructure, data processing in an analytics environment. What started as a career in data science has evolved to larger scale engineering projects across a variety of domains." },
+    { title: "Lifelong Learner", content: "Studying Engineering has made me a genuine life-long learner. I love working on tools new to me, with the view that it expands my understanding of the tools I have a core focus on." }
   ];
 
   const buttonProps = useSpring({
